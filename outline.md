@@ -29,19 +29,6 @@
 - functions
 - types
 
-##### Pre-Session Questions
-
-- What is a programming language?
-- What is JavaScript and where is it used?
-- How have you used programming in the past?
-- Who has ever learned a new (human) language?
-
-##### Post-Session Questions
-
-- What kinds of projects would you like to build towards?
-- Do you have existing web sites that you would like to work with?
-- What about programming is most confusing still? Which concepts do you want to go over in greater depth?
-
 ## Session 2: Organizing Data with Objects
 
 ##### Concepts
