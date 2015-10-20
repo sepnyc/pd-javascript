@@ -1,6 +1,6 @@
 # Professional Development: JavaScript
 
-Professional development materials for Software Engineering Pilot.
+SEP professional development materials for JavaScript workshop.
 
 ## Getting Started
 
