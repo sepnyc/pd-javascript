@@ -10,7 +10,7 @@
 - Manipulate elements on a web page with JavaScript
 - Add an interactive feature to an existing web page using JavaScript
 
-## Lesson 1: Programming Language Basics
+## Session 1: Programming Language Basics
 
 ##### Outline
 
@@ -29,30 +29,31 @@
 - functions
 - types
 
-##### Pre-Lesson Questions
+##### Pre-Session Questions
 
 - What is a programming language?
 - What is JavaScript and where is it used?
 - How have you used programming in the past?
 - Who has ever learned a new (human) language?
 
-##### Post-Lesson Questions
+##### Post-Session Questions
 
 - What kinds of projects would you like to build towards?
 - Do you have existing web sites that you would like to work with?
 - What about programming is most confusing still? Which concepts do you want to go over in greater depth?
 
-## Lesson 2: Organizing Data with Objects
+## Session 2: Organizing Data with Objects
 
 ##### Concepts
 
 - encapsulation
+- variable scope
 - index-based store
 - key-value store
 - properties
 - methods
 
-## Lesson 3: JavaScript and the Web
+## Session 3: JavaScript and the Web
 
 ##### Concepts
 
