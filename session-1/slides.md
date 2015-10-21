@@ -118,6 +118,25 @@ var isProgrammingFun = true
 
 ***
 
+# Errors!
+
+Errors are fantastic. They tell us when we've done something wrong, and often help us figure out how to fix it.
+
+We can use them to learn more about just _how_ a programming language works.
+
+Try these out and see what you get:
+
+```
+"b" _ 2
+if (3 > 1)
+"foo
+3 +
+myvariable = "blah"
+myvariable + othervariable
+```
+
+***
+
 # Let's look at some more complex JavaScript.
 
 ***
@@ -183,9 +202,11 @@ countEvens( listOfAges );
 
 ***
 
-# A function that counts even numbers in an array
+# This function counts even numbers in an array.
 
-So, how does it work? Let's walk through it line by line.
+Technical definition:
+
+> `countEvens` is a function which takes one argument, an array of numbers, and returns a single number representing the count of even numbers in the array.
 
 ```javascript
 function countEvens(numbers) {
@@ -199,6 +220,32 @@ function countEvens(numbers) {
 
   return numberOfEvens;
 }
+```
+
+***
+
+# Experiment time!
+
+What can we learn by running controlled experiments on this function?
+Which changes will produce errors, change the output, or have no effect?
+
+```javascript
+function countEvens(numbers) {
+  var numberOfEvens = 0;
+
+  numbers.forEach(function(number) {
+    if (number % 2 === 0) {
+      numberOfEvens = numberOfEvens + 1;
+    }
+  });
+
+  return numberOfEvens;
+}
+
+countEvens( [3, 2, 5, 1, 4] );
+
+var listOfAges = [32, 45, 27, 58];
+countEvens( listOfAges );
 ```
 
 ***
@@ -280,9 +327,9 @@ Calculate average of 2 grades.
 
 Usage:
 
-```
-calcGrade(70, 90) => 80
-calcGrade(0, 1) => 0.5
+```javascript
+calcGrade(70, 90) // => should return 80
+calcGrade(0, 1)   // => should return 0.5
 ```
 
 \*(We always count from 0 in programming).
@@ -295,9 +342,9 @@ Calculate average of 3 grades.
 
 Usage:
 
-```
-calcGrade(70, 90, 60) => 73.3333
-calcGrade(0, 1, 2) => 1
+```javascript
+calcGrade(70, 90, 60) // => should return 73.3333
+calcGrade(0, 1, 2)    // => should return 1
 ```
 
 ***
@@ -308,9 +355,9 @@ Calculate average of any number of grades.
 
 Usage:
 
-```
-calcGrade([70, 90, 60, 55, 88]) => 72.6
-calcGrade([0, 1]) => 0.5
+```javascript
+calcGrade([70, 90, 60, 55, 88]) // => should return 72.6
+calcGrade([0, 1])               // => should return 0.5
 ```
 
 ***
@@ -321,10 +368,10 @@ Calculate average of any number of grades AND return a basic letter grade (e.g. 
 
 Usage:
 
-```
-calcGrade([70, 90, 60, 55, 88]) => C
-calcGrade([100, 80, 95]) => A
-calcGrade([0, 1]) => F
+```javascript
+calcGrade([70, 90, 60, 55, 88]) // => should return 'C'
+calcGrade([100, 80, 95])        // => should return 'A'
+calcGrade([0, 1])               // => should return 'F'
 ```
 
 ***
@@ -335,11 +382,11 @@ Calculate average of any number of grades AND return a basic letter grade (e.g. 
 
 Usage:
 
-```
-calcGrade([70, 90, 60, 55, 88]) => 72.6
-makeLetter(72.6) => 'C'
-calcGrade([0, 1]) => 0.5
-makeLetter(0.5) => 'F'
+```javascript
+calcGrade([70, 90, 60, 55, 88]) // => should return 72.6
+makeLetter(72.6)                // => should return 'C'
+calcGrade([0, 1])               // => should return 0.5
+makeLetter(0.5)                 // => should return 'F'
 ```
 
 ***
