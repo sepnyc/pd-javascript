@@ -1,6 +1,6 @@
-# JavaScript PD Session 1: Programming Language Basics
+# Session 1: Programming Language Basics
 
-Lesson Plan
+Lesson Plan for JavaScript Professional Development
 
 ##### Learning Outcomes
 
@@ -26,7 +26,7 @@ Lesson Plan
 
 ## Lesson
 
-Total time: ~2.5 hours
+Total time: ~2.5 hours  
 Presentation: [slides](https://swipe.to/2003cq) | [source file](slides.md)
 
 The presentation is designed to cover the full scope of the session. It provides most of the prompts needed to run this session, with the below serving as notes for the instructor.
@@ -37,7 +37,7 @@ The presentation is designed to cover the full scope of the session. It provides
   - Go over goals for this session and overall workshop (at least 2 more sessions)
     - Emphasize that these sessions are intended for teachers with little to no programming knowledge
     - We will be moving quickly given the time constraints, with a priority for content exposure over deep analysis
-    - Recommend going through supplementary materials to continue learning in the gap between sessions (direct to [list of learning resources](../README.md#Resources))
+    - Recommend going through supplementary materials to continue learning in the gap between sessions (direct to [list of learning resources](../README.md#resources))
   - Lead discussion on pre-session questions
     - Good opportunity to get a sense of the teachers' experience and understanding
   - Talk about the purpose of JavaScript
@@ -81,4 +81,4 @@ The presentation is designed to cover the full scope of the session. It provides
 - Wrap-up (10 min)
   - Go over post-session questions as group
   - Request feedback, suggestions for future sessions
-  - Remind teachers about [list of learning resources](../README.md#Resources)
+  - Remind teachers about [list of learning resources](../README.md#resources)

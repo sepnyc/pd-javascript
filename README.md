@@ -20,7 +20,7 @@ $ git clone https://github.com/sepnyc/pd-javascript.git
     └── slides.md
 ```
 
-## Outline
+## Sessions
 
 ### Learning Outcomes
 
@@ -34,12 +34,7 @@ $ git clone https://github.com/sepnyc/pd-javascript.git
 
 ### Session 1: Programming Language Basics
 
-- Introduction, overview of sessions, questions
-- Show an example of JavaScript in the "wild" (Twitter: posting tweets, following)
-- Analyze a basic JavaScript program: what is its purpose, how do we use it, how is it implemented?
-- Define project for the day: grade calculator (input series of grades, calculate average with letter grade)
-- Work through project together in small steps, discussing errors as they arise
-- Conclusion, final questions
+[Lesson Plan](session-1/lesson-plan.md) | [Slides](https://swipe.to/2003cq)
 
 ##### Concepts
 
