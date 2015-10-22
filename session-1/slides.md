@@ -32,11 +32,20 @@ Let's learn what a programming language is and what it can do.
 
 # Concepts we'll be covering
 
-- control flow
-- iteration
-- variables
-- functions
-- data types
+**Data Types**<br>
+The _values_ that programs work with. Numbers, strings, booleans, etc.
+
+**Variables**<br>
+Names which "point to" or reference a value.
+
+**Control Flow**<br>
+The order in which lines of code are executed.
+
+**Iteration**<br>
+Running the same piece of code multiple times.
+
+**Functions**<br>
+Chunks of code with an explicit purpose, like tiny machines.
 
 ***
 
