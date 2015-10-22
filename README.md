@@ -30,7 +30,10 @@ $ git clone https://github.com/sepnyc/pd-javascript.git
 ##### By the end of these sessions, teachers will be able to
 
 - Identify and describe the core syntactical elements of JavaScript
-- Create small programs using JavaScript
+- Develop self-learning habits through analysis and experimentation
+- Create and execute small programs using JavaScript
+- Be able to debug code using basic debugging tools and techniques
+- Develop good habits for iterative program development
 - Differentiate between and compare different JavaScript environments (i.e. Node vs. browser)
 - Manipulate elements on a web page with JavaScript
 - Add an interactive feature to an existing web page using JavaScript
