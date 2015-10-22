@@ -5,7 +5,7 @@ Lesson Plan for JavaScript Professional Development
 ##### Learning Outcomes
 
 - Identify and describe the core syntactical elements of JavaScript
-- Create small programs using JavaScript
+- Develop self-learning habits through analysis and experimentation
 
 ##### Concepts
 
@@ -13,15 +13,14 @@ Lesson Plan for JavaScript Professional Development
 - iteration
 - variables
 - functions
-- types
+- data types
 
 ##### Outline
 
 - Introduction, overview of sessions, questions
 - Show an example of JavaScript in the "wild" (Twitter: posting tweets, following)
+- Explore core features of JavaScript language: data types, conditionals, iteration
 - Analyze a basic JavaScript program: what is its purpose, how do we use it, how is it implemented?
-- Define project for the day: grade calculator (input series of grades, calculate average with letter grade)
-- Work through project together in small steps, discussing errors as they arise
 - Conclusion, final questions
 
 ## Lesson
@@ -44,7 +43,7 @@ The presentation is designed to cover the full scope of the session. It provides
     - Why is it useful for teachers & students to know?
     - How is it used in the world?
     - Open a website or two and point out features that are enabled by JS
-- Starting with the Basics (20 min)
+- Starting with the Basics (60 min)
   - Use JS Bin console to live-code along with teachers
     - Make sure all teachers have a working console before beginning
     - Encourage teachers to ask any questions
@@ -54,7 +53,7 @@ The presentation is designed to cover the full scope of the session. It provides
   - Deliberately induce errors
     - Point out the utility of errors: help us learn more about how the program works
     - Read and solve an error or two (esp. syntax errors)
-- Code Analysis (40 min)
+- Code Analysis (60 min)
   - Setup: put teachers into pairs, use only one computer between the two
     - Open both JavaScript and Console tab in JS Bin
   - Introduce analysis as scientific process: observe a phenomenon and deduce knowledge by running controlled experiments
@@ -69,15 +68,6 @@ The presentation is designed to cover the full scope of the session. It provides
   - Re-group, share knowledge
     - What kinds of experiments did you run? What did you learn?
   - Go over annotated function, map concepts to their implementation
-- Project (60 min)
-  - Setup: rotate pairs
-    - Open both JavaScript and Console tab in JS Bin
-  - Define project purpose: grading calculator
-  - Identify development process: building a simple program and then slowly making it more complex
-  - Go through 10-min development cycles
-    - Define goal for cycle (write test for goal)
-    - Teachers code in pairs to solve goal
-    - Re-group and show example solutions (in [project](project/) directory)
 - Wrap-up (10 min)
   - Go over post-session questions as group
   - Request feedback, suggestions for future sessions

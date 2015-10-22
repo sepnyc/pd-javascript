@@ -1,4 +1,4 @@
-# Session 1
+# Session 1, JavaScript Professional Development
 
 ## Programming Language Basics
 
@@ -36,7 +36,7 @@ Let's learn what a programming language is and what it can do.
 - iteration
 - variables
 - functions
-- types
+- data types
 
 ***
 
@@ -297,96 +297,6 @@ function countEvens(numbers) {
 
   return numberOfEvens;
 }
-```
-
-***
-
-# Project time
-
-Let's write our own program from scratch.
-
-***
-
-# Project for the day: create a grade calculator
-
-It will take a list of number grades (`82`, `67`, etc.) and return a letter grade (`"B"`, `"D"`, etc.).
-
-We'll start with the a simple implementation and work our way towards a more complete one.
-
-## Setup
-
-1. Create a new JS Bin https://jsbin.com/
-1. Open both the `JavaScript` and the `Console` tabs
-1. Write code in the `JavaScript` tab and press `Run` to execute it
-
-***
-
-# Project: Version 0\*
-
-Calculate average of 2 grades.
-
-Usage:
-
-```javascript
-calcGrade(70, 90) // => should return 80
-calcGrade(0, 1)   // => should return 0.5
-```
-
-\*(We always count from 0 in programming).
-
-***
-
-# Project: Version 1
-
-Calculate average of 3 grades.
-
-Usage:
-
-```javascript
-calcGrade(70, 90, 60) // => should return 73.3333
-calcGrade(0, 1, 2)    // => should return 1
-```
-
-***
-
-# Project: Version 2
-
-Calculate average of any number of grades.
-
-Usage:
-
-```javascript
-calcGrade([70, 90, 60, 55, 88]) // => should return 72.6
-calcGrade([0, 1])               // => should return 0.5
-```
-
-***
-
-# Project: Version 3
-
-Calculate average of any number of grades AND return a basic letter grade (e.g. 'B', 'D').
-
-Usage:
-
-```javascript
-calcGrade([70, 90, 60, 55, 88]) // => should return 'C'
-calcGrade([100, 80, 95])        // => should return 'A'
-calcGrade([0, 1])               // => should return 'F'
-```
-
-***
-
-# Project: Version 4
-
-Calculate average of any number of grades AND return a basic letter grade (e.g. 'B', 'D') using separate function.
-
-Usage:
-
-```javascript
-calcGrade([70, 90, 60, 55, 88]) // => should return 72.6
-makeLetter(72.6)                // => should return 'C'
-calcGrade([0, 1])               // => should return 0.5
-makeLetter(0.5)                 // => should return 'F'
 ```
 
 ***

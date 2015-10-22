@@ -14,7 +14,10 @@ $ git clone https://github.com/sepnyc/pd-javascript.git
 
 ```shell-session
 ├── README.md
-└── session-1
+├── session-1
+│   ├── lesson-plan.md
+│   └── slides.md
+└── session-2
     ├── lesson-plan.md
     ├── project/
     └── slides.md
@@ -42,9 +45,21 @@ $ git clone https://github.com/sepnyc/pd-javascript.git
 - iteration
 - variables
 - functions
-- types
+- data types
 
-### Session 2: Organizing Data with Objects
+### Session 2: Practical Programming in JavaScript
+
+[Lesson Plan](session-2/lesson-plan.md)
+
+##### Concepts
+
+- testing
+- debugging
+- interface
+- data structures
+- iterative development
+
+### Session 3: Organizing Data with Objects
 
 ##### Concepts
 
@@ -55,7 +70,7 @@ $ git clone https://github.com/sepnyc/pd-javascript.git
 - properties
 - methods
 
-### Session 3: JavaScript and the Web
+### Session 4: JavaScript and the Web
 
 ##### Concepts
 
