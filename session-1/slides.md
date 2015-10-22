@@ -22,6 +22,33 @@ Software Engineering Pilot | NYC Department of Education | http://sepnyc.org/
 - Manipulate elements on a web page with JavaScript
 - Add an interactive feature to an existing web page using JavaScript
 
+### We won't be covering
+
+- Advanced JavaScript or concepts
+- Web frameworks (Ember, Angular, etc.)
+- SEP curriculum-specific topics
+
+***
+
+# You're in the right place if you...
+
+- are new to programming and JavaScript
+- want to refresh your knowledge of the basics
+- want to focus on understanding the fundamentals of programming
+- enjoy a good challenge :D
+
+***
+
+# Pre-Session Questions
+
+- What is a programming language?
+- What is JavaScript and what is it used for?
+- How do you think JavaScript works?
+  - On a computer?
+  - On the web?
+
+_Form groups of 2 or 3, answer these questions together on paper._
+
 ***
 
 # Focusing on today...
@@ -49,15 +76,6 @@ Chunks of code with an explicit purpose, like tiny machines.
 
 ***
 
-# Pre-Session Questions
-
-- What is a programming language?
-- What is JavaScript and where is it used?
-- How have you used programming in the past?
-- Who has ever learned a new (human) language?
-
-***
-
 # JavaScript in the wild
 
 There are many programming languages in the world. JavaScript is only one of them.
@@ -65,6 +83,14 @@ There are many programming languages in the world. JavaScript is only one of the
 It is used primarily as the language of the web: every major web browser runs JavaScript.
 
 Look at https://twitter.com. Where is the JavaScript on this site?
+
+***
+
+# Where do we work with JavaScript?
+
+- Consoles
+- Files and Editors
+- On the web and off
 
 ***
 
@@ -77,7 +103,15 @@ This is a JavaScript _interpreter_: we can write JavaScript code here, and it wi
 
 ***
 
-# Try some basic JavaScript
+# The Building Blocks of JavaScript
+
+Let's explore the basic components of writing JavaScript.
+
+We'll be playing with these as we go - code along and ask questions!
+
+***
+
+# Basic Math
 
 The most simple operation a programming language can do is manipulate numbers.
 
@@ -94,40 +128,107 @@ Try entering some math expressions into the console and see what you get:
 
 ***
 
-# More fun with variables
+# Data Types
+
+Numbers are just one of JavaScript's _data types_. Another core data type is the String data type, used to store strings of characters (i.e. text).
+
+Strings are surrounded by single or double quotes, `"like this!"`. Try playing with strings, see what you get:
+
+```
+"apple"
+"apple" + "banana"
+"23" + 1
+"apple".toUpperCase()
+"i like cats".replace("cats", "dogs")
+```
+
+***
+
+# Variables
 
 _Variables_ are how we assign a name to a _value_ (a piece of data). In JavaScript, they are preceded by the `var` keyword.
 
 Anywhere we can use a value, we can also use a variable. JavaScript will look at the variable, and _evaluate_ the code using the variable's value.
 
-Try this out:
+Try these out:
 
 ```
-var size = 40
-size / 2
-size + 1
-size + size
+var width = 40
+width / 2
+var height = 25
+width + height
+var area = width * height
+var firstName = "Ada"
+var surname = "Lovelace"
+var fullName = firstName + " " + surname
 ```
 
 ***
 
-# Beyond numbers
+# Beyond numbers and strings
 
-Programming languages can work with more than just numbers. There are other kinds of _types_ of data that we can use.
+Programming languages can work with more than just numbers and strings. There are other kinds of _types_ of data that we can use.
 
-`String` types are for _strings_ of characters (like words and sentences!).
-`Array` types are for storing collections of things.
 `Boolean` types are simple: they are either `true` or `false`!
+`Array` types are for storing collections of things.
 
 ```
-var name = "Ada"
-var countries = ["England", "Thailand", "Brazil"]
 var isProgrammingFun = true
+var answer = false
+var countries = ["England", "Thailand", "Brazil"]
+var coordinates = [36.42, 129.38]
 ```
+
+***
+
+# Operators
+
+We've already seen some of the _operators_ in JavaScript: `+`, `-`, `*` (multiply), `/` (divide).
+
+There are more than just those! For example, the modulo operator `%` is for finding the remainder from a division operation. And comparison operators like `<` (less than), `>` (greater than), and `===` (equal to) are for comparing two values.
+
+Try it! What does each expression _evaluate to_?
+
+```
+10 % 3
+8 % 2
+8 < 10
+5 > 6
+4 === 3
+4.0 === 4
+7 >= 7
+3 !== 2
+3 !== 3
+"apples" === "oranges"
+"zip" === "zip"
+```
+
+***
+
+# Control Flow
+
+One of the main ways that booleans are used is in _control flow_, which is how a program makes decisions on which code to execute.
+
+The standard control flow statement is the **if statement**. It looks like this:
+
+```
+if (expression) { code to run }
+```
+
+For example:
+
+```
+age = 23
+if (age > 21) { console.log('have a drink!') }
+```
+
+Try writing a few if statements, some for false, some for true.
 
 ***
 
 # Errors!
+
+Let's take a quick break and talk about errors.
 
 Errors are fantastic. They tell us when we've done something wrong, and often help us figure out how to fix it.
 
@@ -146,7 +247,87 @@ myvariable + othervariable
 
 ***
 
-# Let's look at some more complex JavaScript.
+# Functions
+
+A _function_ is a named block of code that _does something_. Here's a simple function definition:
+
+```javascript
+function sum(a, b) {
+  return a + b;
+}
+```
+
+This just _defines_ the function. To use it, we need to _call_ the function like this:
+
+```javascript
+sum(3, 5)
+```
+
+_Note: to run the above code, open the `JavaScript` tab on JS Bin. That way, you can write code on multiple lines and then execute it._
+
+***
+
+# Inputs & Outputs
+
+All functions take zero or more _inputs_ and return an _output_.
+
+Formally, the inputs are called _arguments_ and the outputs is called the _return value_.
+
+What are the inputs and outputs of this function?
+
+```javascript
+function sumIfPositive(a, b) {
+  var sum = a + b;
+  if (sum >= 0) {
+    return sum;
+  } else {
+    return "Negative sum!";
+  }
+}
+```
+
+***
+
+# Iteration
+
+When we need to run the same code multiple times, we use _iteration_ (also known as _looping_).
+
+The simplest form of iteration is _iterating through an array_. If we have an array, we can run the same code for each element in the array.
+
+```javascript
+var countries = ["England", "Thailand", "Brazil"];
+
+countries.forEach(function(country) {
+  console.log("Let's go to..." + country);
+});
+```
+
+***
+
+# Working with Arrays
+
+Besides iteration, there are lots of other ways to work with arrays.
+
+For example, we may want to add or remove elements from an array, or retrieve certain elements at a particular index.
+
+Try these different array operations:
+
+```javascript
+var groceries = ["bread", "zucchini", "bacon", "tomatoes", "butter"];
+groceries[0]
+groceries.length
+groceries[4]
+groceries[5]
+groceries[3] = "tofu"
+groceries
+groceries.pop()
+groceries
+groceries.push("olive oil")
+```
+
+***
+
+# Let's analyze a real JavaScript function.
 
 ***
 
@@ -292,7 +473,7 @@ Where do we find each of these concepts at play in the code?
 - iteration
 - variables
 - functions
-- types
+- data types
 
 ```javascript
 function countEvens(numbers) {
