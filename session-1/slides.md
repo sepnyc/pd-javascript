@@ -243,9 +243,36 @@ if (age >= 18) {
 }
 ```
 
-Try changing the value of `age` to alter how the program runs. What other kinds of if statements can you think of?
+Try changing the value of `age` to alter how the program runs.
 
 _Note the semicolons at the end of each line. Newer versions of JavaScript don't care as much about semicolons, but older versions need them to separate statements._
+
+***
+
+# Control Flow Mini-Challenge
+
+Now that you have some idea of how to use if...else statements to control the flow of your programs, let's try a little challenge!
+
+**Write a program that checks if a variable called `input` is equal to a variable called `password`. If they are equal, print a confirmation message. If not, print a message telling the user to try again.**
+
+You'll have to define your own variables and write your own if statements. Test at least two values for `input`.
+
+***
+
+# Control Flow Mini-Challenge: Example
+
+Here's an example solution. Is your code similar?
+
+```javascript
+var input = "lasagne";
+var password = "macandcheese";
+
+if (input === password) {
+  console.log("Access granted!");
+} else {
+  console.log("Denied! Try again.");
+}
+```
 
 ***
 
