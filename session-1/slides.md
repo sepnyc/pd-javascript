@@ -218,11 +218,34 @@ if (expression) { code to run }
 For example:
 
 ```
-age = 23
-if (age > 21) { console.log('have a drink!') }
+var age = 23
+if (age >= 18) { console.log("Rock the vote!") }
 ```
 
 Try writing a few if statements, some for false, some for true.
+
+***
+
+# Control Flow
+
+Often we want to say not just "if this is true, do x" but "if this is true, do x, otherwise do y". This is called an **if...else statement** and it works just like you'd expect.
+
+To work with these, though, we want to write _multiple lines of code_. This is the same as writing on one line as far as the computer is concerned, but it is a lot easier to work with for us mere mortals.
+
+Open the `JavaScript` tab on JS Bin. We can write multiple lines of code here, and then press the "Run" button to _execute_ our code.
+
+```javascript
+var age = 23;
+if (age >= 18) {
+  console.log("Rock the vote!");
+} else {
+  console.log("Sorry, no ballot for you.");
+}
+```
+
+Try changing the value of `age` to alter how the program runs. What other kinds of if statements can you think of?
+
+_Note the semicolons at the end of each line. Newer versions of JavaScript don't care as much about semicolons, but older versions need them to separate statements._
 
 ***
 
@@ -262,8 +285,6 @@ This just _defines_ the function. To use it, we need to _call_ the function like
 ```javascript
 sum(3, 5)
 ```
-
-_Note: to run the above code, open the `JavaScript` tab on JS Bin. That way, you can write code on multiple lines and then execute it._
 
 ***
 
