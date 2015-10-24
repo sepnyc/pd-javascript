@@ -107,6 +107,33 @@ Chunks of code with an explicit purpose, like tiny machines.
 
 ***
 
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
+## Resources
+
+Tutorials:
+
+- [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- [https://www.khanacademy.org/computing/computer-programming/programming](https://www.khanacademy.org/computing/computer-programming/programming)
+- [https://www.codecademy.com/en/tracks/javascript](https://www.codecademy.com/en/tracks/javascript)
+- [https://www.codeschool.com/paths/javascript](https://www.codeschool.com/paths/javascript)
+- [https://teamtreehouse.com/learn/javascript](https://teamtreehouse.com/learn/javascript)
+- [https://github.com/rkho/javascript-beginners-curriculum](https://github.com/rkho/javascript-beginners-curriculum)
+
+Documentation:
+
+- [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+
+Books & Readings:
+
+- [http://eloquentjavascript.net/](http://eloquentjavascript.net/)
+- [http://javascript.crockford.com/](http://javascript.crockford.com/)
+
+***
+
 <!-- background: #3e7997 -->
 <!-- color: #fff -->
 <!-- font: frutiger -->
