@@ -1,3 +1,7 @@
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Session 1, JavaScript Professional Development
 
 ## Programming Language Basics
@@ -6,6 +10,10 @@ Software Engineering Pilot | NYC Department of Education | http://sepnyc.org/
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Introduction
 
 - Who I am.
@@ -13,6 +21,10 @@ Software Engineering Pilot | NYC Department of Education | http://sepnyc.org/
 - What we're doing here.
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Goals for these sessions
 
@@ -30,6 +42,10 @@ Software Engineering Pilot | NYC Department of Education | http://sepnyc.org/
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # You're in the right place if you...
 
 - are new to programming and JavaScript
@@ -38,6 +54,10 @@ Software Engineering Pilot | NYC Department of Education | http://sepnyc.org/
 - enjoy a good challenge :D
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Pre-Session Questions
 
@@ -51,11 +71,22 @@ _Form groups of 2 or 3, answer these questions together on paper._
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Focusing on today...
 
 Let's learn what a programming language is and what it can do.
 
+- Identify and describe the core syntactical elements of JavaScript
+- Develop self-learning habits through analysis and experimentation
+
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Concepts we'll be covering
 
@@ -76,6 +107,10 @@ Chunks of code with an explicit purpose, like tiny machines.
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # JavaScript in the wild
 
 There are many programming languages in the world. JavaScript is only one of them.
@@ -86,6 +121,10 @@ Look at https://twitter.com. Where is the JavaScript on this site?
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Where do we work with JavaScript?
 
 - Consoles
@@ -93,6 +132,10 @@ Look at https://twitter.com. Where is the JavaScript on this site?
 - On the web and off
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Let's get our hands dirty
 
@@ -103,6 +146,10 @@ This is a JavaScript _interpreter_: we can write JavaScript code here, and it wi
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # The Building Blocks of JavaScript
 
 Let's explore the basic components of writing JavaScript.
@@ -110,6 +157,10 @@ Let's explore the basic components of writing JavaScript.
 We'll be playing with these as we go - code along and ask questions!
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Basic Math
 
@@ -128,6 +179,10 @@ Try entering some math expressions into the console and see what you get:
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Data Types
 
 Numbers are just one of JavaScript's _data types_. Another core data type is the String data type, used to store strings of characters (i.e. text).
@@ -143,6 +198,10 @@ Strings are surrounded by single or double quotes, `"like this!"`. Try playing w
 ```
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Variables
 
@@ -165,6 +224,10 @@ var fullName = firstName + " " + surname
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Beyond numbers and strings
 
 Programming languages can work with more than just numbers and strings. There are other kinds of _types_ of data that we can use.
@@ -180,6 +243,10 @@ var coordinates = [36.42, 129.38]
 ```
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Operators
 
@@ -205,6 +272,10 @@ Try it! What does each expression _evaluate to_?
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Control Flow
 
 One of the main ways that booleans are used is in _control flow_, which is how a program makes decisions on which code to execute.
@@ -225,6 +296,10 @@ if (age >= 18) { console.log("Rock the vote!") }
 Try writing a few if statements, some for false, some for true.
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Control Flow
 
@@ -249,6 +324,10 @@ _Note the semicolons at the end of each line. Newer versions of JavaScript don't
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Control Flow Mini-Challenge
 
 Now that you have some idea of how to use if...else statements to control the flow of your programs, let's try a little challenge!
@@ -258,6 +337,10 @@ Now that you have some idea of how to use if...else statements to control the fl
 You'll have to define your own variables and write your own if statements. Test at least two values for `input`.
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Control Flow Mini-Challenge: Example
 
@@ -275,6 +358,10 @@ if (input === password) {
 ```
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Errors!
 
@@ -297,6 +384,10 @@ myvariable + othervariable
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Functions
 
 A _function_ is a named block of code that _does something_. Here's a simple function definition:
@@ -314,6 +405,10 @@ sum(3, 5)
 ```
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Inputs & Outputs
 
@@ -336,6 +431,10 @@ function sumIfPositive(a, b) {
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Iteration
 
 When we need to run the same code multiple times, we use _iteration_ (also known as _looping_).
@@ -351,6 +450,10 @@ countries.forEach(function(country) {
 ```
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Working with Arrays
 
@@ -375,9 +478,17 @@ groceries.push("olive oil")
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Let's analyze a real JavaScript function.
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # What is this?
 
@@ -399,6 +510,10 @@ Let's analyze it together.
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # First, what are we looking at?
 
 ```javascript
@@ -416,6 +531,10 @@ function countEvens(numbers) {
 ```
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Ok, so it's a function. How do we use it?
 
@@ -440,6 +559,10 @@ countEvens( listOfAges );
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # This function counts even numbers in an array.
 
 Technical definition:
@@ -461,6 +584,10 @@ function countEvens(numbers) {
 ```
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Experiment time!
 
@@ -488,6 +615,10 @@ countEvens( listOfAges );
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # An annotated version of this function
 
 These comments tell exactly _what_ is happening, but not _why_.
@@ -512,6 +643,10 @@ function countEvens(numbers) {            // Define a function that takes
 ```
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Back to the concepts
 
@@ -538,6 +673,10 @@ function countEvens(numbers) {
 ```
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Post-Session Questions
 
