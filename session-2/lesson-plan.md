@@ -28,7 +28,7 @@ Lesson Plan for JavaScript Professional Development
 ## Morning Lesson
 
 Total time: ~2.5 hours  
-Presentation: slides | [source file](slides.md)
+Presentation: [slides][s2-slides] | [source file](slides.md)
 
 The presentation is designed to cover the full scope of the session. It provides most of the prompts needed to run this session, with the below serving as notes for the instructor.
 
@@ -37,6 +37,9 @@ The presentation is designed to cover the full scope of the session. It provides
     - Emphasize that these sessions are for general programming training and do not address specific SEP curricula
     - Explain that the priority is for teachers to understand the fundamental concepts, so we may not get to the more "exciting" topics like frameworks
     - Recommend going through supplementary materials to continue learning in the gap between sessions (direct to [list of learning resources](../README.md#resources))
+  - Introduce new structure
+    - Morning seminar
+    - Afternoon practice
 - Code Analysis (30 min)
   - Setup: put teachers into pairs, use only one computer between the two
     - Open both JavaScript and Console tab in JS Bin
@@ -74,4 +77,7 @@ The presentation is designed to cover the full scope of the session. It provides
 - Wrap-up (10 min)
   - Go over post-session questions as group
   - Request feedback, suggestions for future sessions
+  - Explain afternoon session
   - Remind teachers about [list of learning resources](../README.md#resources)
+
+[s2-slides]:https://swipe.to/3534fx

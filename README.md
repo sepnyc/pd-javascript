@@ -4,10 +4,11 @@ SEP professional development materials for JavaScript workshop.
 
 ## Getting Started
 
-Clone the repo:
+Clone the repo & open in your favorite editor:
 
 ```shell-session
 $ git clone https://github.com/sepnyc/pd-javascript.git
+$ $EDITOR pd-javascript
 ```
 
 ## Contents
@@ -17,9 +18,25 @@ $ git clone https://github.com/sepnyc/pd-javascript.git
 ├── session-1
 │   ├── lesson-plan.md
 │   └── slides.md
-└── session-2
+├── session-2
+│   ├── example.js
+│   ├── lesson-plan.md
+│   └── slides.md
+├── session-3
+│   ├── lesson-plan.md
+│   ├── project
+│   └── slides.md
+├── session-4
+│   ├── lesson-plan.md
+│   └── slides.md
+├── session-5
+│   ├── lesson-plan.md
+│   └── slides.md
+├── session-6
+│   ├── lesson-plan.md
+│   └── slides.md
+└── session-7
     ├── lesson-plan.md
-    ├── project/
     └── slides.md
 ```
 
@@ -40,8 +57,8 @@ $ git clone https://github.com/sepnyc/pd-javascript.git
 
 ### Session 1-2: Programming Language Basics
 
-Session 1: [Lesson Plan](session-1/lesson-plan.md) | [Slides][s1-slides]
-Session 2: [Lesson Plan](session-2/lesson-plan.md) | Slides
+Session 1: [Lesson Plan](session-1/lesson-plan.md) | [Slides][s1-slides]<br>
+Session 2: [Lesson Plan](session-2/lesson-plan.md) | [Slides][s2-slides]
 
 ##### Concepts
 
@@ -92,7 +109,7 @@ Session 4: [Lesson Plan](session-4/lesson-plan.md) | Slides
 
 ### Session 5-6: JavaScript and the Web
 
-Session 5: [Lesson Plan](session-5/lesson-plan.md) | Slides
+Session 5: [Lesson Plan](session-5/lesson-plan.md) | Slides<br>
 Session 6: [Lesson Plan](session-6/lesson-plan.md) | Slides
 
 ##### Concepts
@@ -135,3 +152,4 @@ Books & Readings:
 Software Engineering Pilot | NYC Department of Education | http://sepnyc.org/
 
 [s1-slides]:https://swipe.to/2003cq
+[s2-slides]:https://swipe.to/3534fx

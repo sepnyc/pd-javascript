@@ -8,6 +8,8 @@
 
 Software Engineering Pilot | NYC Department of Education | http://sepnyc.org/
 
+Link to slides: https://swipe.to/3534fx
+
 ***
 
 <!-- background: #3e7997 -->
@@ -584,6 +586,8 @@ function countEvens(numbers) {
 <!-- font: frutiger -->
 
 # FIN
+
+Link to slides: https://swipe.to/3534fx
 
 ### Post-session input
 
