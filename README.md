@@ -38,31 +38,44 @@ $ git clone https://github.com/sepnyc/pd-javascript.git
 - Manipulate elements on a web page with JavaScript
 - Add an interactive feature to an existing web page using JavaScript
 
-### Session 1: Programming Language Basics
+### Session 1-2: Programming Language Basics
 
-[Lesson Plan](session-1/lesson-plan.md) | [Slides](https://swipe.to/2003cq)
+Session 1: [Lesson Plan](session-1/lesson-plan.md) | [Slides][s1-slides]
+Session 2: [Lesson Plan](session-2/lesson-plan.md) | Slides
 
 ##### Concepts
 
+- data types
+- variables
+- operators
 - control flow
 - iteration
-- variables
 - functions
-- data types
 
-### Session 2: Practical Programming in JavaScript
+##### Projects
 
-[Lesson Plan](session-2/lesson-plan.md)
+- Go through JS fundamentals course on [CodeCademy](https://www.codecademy.com/learn/javascript)
+
+### Session 3: Practical Programming in JavaScript
+
+Session 3: [Lesson Plan](session-3/lesson-plan.md) | Slides
 
 ##### Concepts
 
 - testing
 - debugging
-- interface
+- interface design
 - data structures
 - iterative development
 
-### Session 3: Organizing Data with Objects
+##### Projects
+
+- Set up a development environment
+- Grader
+
+### Session 4: Working with Objects
+
+Session 4: [Lesson Plan](session-4/lesson-plan.md) | Slides
 
 ##### Concepts
 
@@ -73,7 +86,14 @@ $ git clone https://github.com/sepnyc/pd-javascript.git
 - properties
 - methods
 
-### Session 4: JavaScript and the Web
+##### Projects
+
+- Modeling systems with object-oriented design
+
+### Session 5-6: JavaScript and the Web
+
+Session 5: [Lesson Plan](session-5/lesson-plan.md) | Slides
+Session 6: [Lesson Plan](session-6/lesson-plan.md) | Slides
 
 ##### Concepts
 
@@ -82,6 +102,12 @@ $ git clone https://github.com/sepnyc/pd-javascript.git
 - tree structure
 - user input
 - rendering
+
+##### Projects
+
+### Session 7: TBD
+
+Session 7: [Lesson Plan](session-7/lesson-plan.md) | Slides
 
 ## Resources
 
@@ -93,6 +119,7 @@ Tutorials:
 - https://www.codeschool.com/paths/javascript
 - https://teamtreehouse.com/learn/javascript
 - https://github.com/rkho/javascript-beginners-curriculum
+- http://javascriptissexy.com/how-to-learn-javascript-properly/
 
 Documentation:
 
@@ -106,3 +133,5 @@ Books & Readings:
 - - -
 
 Software Engineering Pilot | NYC Department of Education | http://sepnyc.org/
+
+[s1-slides]:https://swipe.to/2003cq
