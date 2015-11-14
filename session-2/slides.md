@@ -73,6 +73,14 @@ Names which "point to" or reference a value.
 **Operators**<br>
 Basic symbols which perform a simple operation on one or more values.
 
+Where do these concepts appear in the example code below?
+
+```javascript
+var x = 4;
+var y = 9;
+var answer = (x + y) * (x - y);
+```
+
 ***
 
 <!-- background: #3e7997 -->
@@ -260,6 +268,31 @@ countEvens( listOfAges );
 <!-- color: #fff -->
 <!-- font: frutiger -->
 
+# Errors!
+
+Let's take a quick break and talk about errors.
+
+Errors are fantastic. They tell us when we've done something wrong, and often help us figure out how to fix it.
+
+We can use them to learn more about just _how_ a programming language works.
+
+Try these out and see what you get:
+
+```
+"b" _ 2
+if (3 > 1)
+"foo
+3 +
+myvariable = "blah"
+myvariable + othervariable
+```
+
+***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # The Building Blocks of JavaScript (continued)
 
 Let's explore more of the basic components of writing JavaScript.
@@ -270,7 +303,7 @@ We'll be playing with these as we go - code along and ask questions!
 
 # More Operators
 
-We've already seen some of the _operators_ in JavaScript: `+`, `-`, `*` (multiply), `/` (divide).
+We've already seen some of the _operators_ in JavaScript: `+`, `-`, `*` (multiply), `/` (divide), and `=` (assignment).
 
 There are more than just those! For example, the modulo operator `%` is for finding the remainder from a division operation. And **comparison operators** like `<` (less than), `>` (greater than), and `===` (equal to) are for comparing two values.
 
@@ -303,7 +336,7 @@ One of the main ways that booleans are used is in _control flow_, which is how a
 The standard control flow statement is the **if statement**. It looks like this:
 
 ```
-if (expression) { code to run }
+if (boolean expression) { code to run }
 ```
 
 For example:
@@ -383,31 +416,6 @@ if (input === password) {
 <!-- color: #fff -->
 <!-- font: frutiger -->
 
-# Errors!
-
-Let's take a quick break and talk about errors.
-
-Errors are fantastic. They tell us when we've done something wrong, and often help us figure out how to fix it.
-
-We can use them to learn more about just _how_ a programming language works.
-
-Try these out and see what you get:
-
-```
-"b" _ 2
-if (3 > 1)
-"foo
-3 +
-myvariable = "blah"
-myvariable + othervariable
-```
-
-***
-
-<!-- background: #3e7997 -->
-<!-- color: #fff -->
-<!-- font: frutiger -->
-
 # Functions
 
 A _function_ is a named block of code that _does something_. Here's a simple function definition:
@@ -434,9 +442,9 @@ sum(3, 5)
 
 All functions take zero or more _inputs_ and return an _output_.
 
-Formally, the inputs are called _arguments_ and the outputs is called the _return value_.
+Formally, the inputs are called _arguments_ and the output is called the _return value_.
 
-What are the inputs and outputs of this function?
+What are the inputs and output(s) of this function?
 
 ```javascript
 function sumIfPositive(a, b) {
@@ -459,7 +467,7 @@ function sumIfPositive(a, b) {
 
 When we need to run the same code multiple times, we use _iteration_ (also known as _looping_).
 
-The simplest form of iteration is _iterating through an array_. If we have an array, we can run the same code for each element in the array.
+The simplest form of iteration is _iterating over an array_. If we have an array, we can run the same code for each element in the array.
 
 ```javascript
 var countries = ["England", "Thailand", "Brazil"];
@@ -467,6 +475,38 @@ var countries = ["England", "Thailand", "Brazil"];
 countries.forEach(function(country) {
   console.log("Let's go to..." + country);
 });
+```
+
+***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
+# Life without iteration
+
+What would programming be like without iteration? We could still write programs with the same functionality, but it would look a bit different:
+
+```javascript
+var countries = ["England", "Thailand", "Brazil"];
+
+console.log("Let's go to..." + countries[0]);
+console.log("Let's go to..." + countries[1]);
+console.log("Let's go to..." + countries[2]);
+```
+
+Or, slightly improved...
+
+```javascript
+var countries = ["England", "Thailand", "Brazil"];
+
+function letsTravel(country) {
+  console.log("Let's go to..." + country);
+};
+
+letsTravel(countries[0]);
+letsTravel(countries[1]);
+letsTravel(countries[2]);
 ```
 
 ***
