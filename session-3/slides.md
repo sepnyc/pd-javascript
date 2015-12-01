@@ -1,3 +1,7 @@
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Session 3, JavaScript Professional Development
 
 ## Practical Programming in JavaScript
@@ -6,11 +10,19 @@ Software Engineering Pilot | NYC Department of Education | http://sepnyc.org/
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Introduction
 
 <!-- TODO: write introduction -->
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Goals for these sessions
 
@@ -22,11 +34,19 @@ Software Engineering Pilot | NYC Department of Education | http://sepnyc.org/
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Focusing on today...
 
 Practice developing small programs.
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Concepts we'll be covering
 
@@ -38,17 +58,70 @@ Practice developing small programs.
 
 ***
 
-# Pre-Session Questions
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
-<!-- TODO: write questions -->
+# Pre-Session Review
+
+What have we learned about the following concepts? (Definition and examples)
+
+**Functions**<br>
+
+**Iteration**<br>
+
+**Control Flow**<br>
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
+# Pre-Session Review
+
+What have we learned about the following concepts? (Definition and examples)
+
+**Control Flow**<br>
+The order in which lines of code are executed.
+
+**Iteration**<br>
+Running the same piece of code multiple times.
+
+**Functions**<br>
+Chunks of code with an explicit purpose, like tiny machines.
+
+Where do these concepts appear in the example code below?
+
+```javascript
+function countEvens(numbers) {
+  var numberOfEvens = 0;
+
+  numbers.forEach(function(number) {
+    if (number % 2 === 0) {
+      numberOfEvens = numberOfEvens + 1;
+    }
+  });
+
+  return numberOfEvens;
+}
+```
+
+***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Project time
 
 Let's write our own program from scratch.
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Project for the day: create a grade calculator
 
@@ -63,6 +136,10 @@ We'll start with the a simple implementation and work our way towards a more com
 1. Write code in the `JavaScript` tab and press `Run` to execute it
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Project: Version 0\*
 
@@ -79,6 +156,10 @@ calcGrade(0, 1)   // => should return 0.5
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Project: Version 1
 
 Calculate average of 3 grades.
@@ -92,6 +173,10 @@ calcGrade(0, 1, 2)    // => should return 1
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Project: Version 2
 
 Calculate average of any number of grades.
@@ -104,6 +189,10 @@ calcGrade([0, 1])               // => should return 0.5
 ```
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Project: Version 3
 
@@ -119,6 +208,10 @@ calcGrade([0, 1])               // => should return 'F'
 
 ***
 
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Project: Version 4
 
 Calculate average of any number of grades AND return a basic letter grade (e.g. 'B', 'D') using separate function.
@@ -133,6 +226,10 @@ makeLetter(0.5)                 // => should return 'F'
 ```
 
 ***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
 
 # Post-Session Questions
 
