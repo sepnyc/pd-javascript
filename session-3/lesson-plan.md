@@ -34,7 +34,7 @@ Lesson Plan for JavaScript Professional Development
 ## Morning Lesson
 
 Total time: ~2.5 hours  
-Presentation: slides | [source file](slides.md)
+Presentation: [slides](https://swipe.to/6206gd) | [source file](slides.md)
 
 The presentation is designed to cover the full scope of the session. It provides most of the prompts needed to run this session, with the below serving as notes for the instructor.
 
