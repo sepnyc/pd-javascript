@@ -24,3 +24,7 @@ Lesson Plan for JavaScript Professional Development
 
 Total time: ~2.5 hours  
 Presentation: slides | [source file](slides.md)
+
+## Afternoon Project
+
+Use this? https://d157rqmxrxj6ey.cloudfront.net/mozillalearning/11701/
