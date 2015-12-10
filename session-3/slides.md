@@ -16,31 +16,9 @@ Software Engineering Pilot | NYC Department of Education | http://sepnyc.org/
 
 # Introduction
 
-<!-- TODO: write introduction -->
+Today is all about how to work on projects: how to take an idea and iteratively translate into a functional program.
 
-***
-
-<!-- background: #3e7997 -->
-<!-- color: #fff -->
-<!-- font: frutiger -->
-
-# Goals for these sessions
-
-- Identify and describe the core syntactical elements of JavaScript
-- Create small programs using JavaScript
-- Differentiate between and compare different JavaScript environments (i.e. Node vs. browser)
-- Manipulate elements on a web page with JavaScript
-- Add an interactive feature to an existing web page using JavaScript
-
-***
-
-<!-- background: #3e7997 -->
-<!-- color: #fff -->
-<!-- font: frutiger -->
-
-# Focusing on today...
-
-Practice developing small programs.
+To make it more interesting, we're going to be building a project _together_.
 
 ***
 
@@ -113,6 +91,33 @@ function countEvens(numbers) {
 <!-- color: #fff -->
 <!-- font: frutiger -->
 
+# Programming Essentials: Working with Arrays
+
+Besides iteration, there are lots of other ways to work with arrays.
+
+For example, we may want to add or remove elements from an array, or retrieve certain elements at a particular index.
+
+Try these different array operations:
+
+```javascript
+var groceries = ["bread", "zucchini", "bacon", "tomatoes", "butter"];
+groceries[0]
+groceries.length
+groceries[4]
+groceries[5]
+groceries[3] = "tofu"
+groceries
+groceries.pop()
+groceries
+groceries.push("olive oil")
+```
+
+***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
 # Project time
 
 Let's write our own program from scratch.
@@ -123,7 +128,122 @@ Let's write our own program from scratch.
 <!-- color: #fff -->
 <!-- font: frutiger -->
 
-# Project for the day: create a grade calculator
+# What does it mean to work on a coding project?
+
+How do we begin?
+
+Start with a problem.
+
+Let's say we are constantly forgetting what we want to buy at the grocery store.
+
+How can we solve this problem with code? What should our steps be?
+
+***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
+# Development Process
+
+A good development process looks something like this.
+
+1. Define the problem
+1. Set goals
+1. Define versions, simplify as much as possible
+1. Clarify use (interface)
+1. Write expectations (testing)
+1. Write code to pass tests
+
+This is what we'll be practicing today.
+
+***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
+# Morning Project
+
+Let's make it easier to take attendance.
+
+- What is the goal?
+- What is the simplest solution?
+- What is the interface?
+- What is the first test we can write?
+
+***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
+# Let's Get Started
+
+Now that we have a test, we can write code to solve it. Here's the cycle we'll follow:
+
+1. Write a test
+1. Switch out the person typing
+1. Write code to pass the test
+1. Repeat until feature is complete
+
+***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
+# Reflection
+
+How do these concepts apply to our project?
+
+- testing
+- debugging
+- interface
+- data structures
+- iterative development
+
+***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
+# Reflection
+
+- Was this process similar to other learning or working processes you use?
+- What was new and different about it?
+- What did we learn?
+- What did we build?
+
+***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
+# Debugging!
+
+We found a bug! Hooray!
+
+Let's practice a _debugging process_:
+
+- Is there an error?
+  - If so, what line is it on?
+  - What is the program state when the error occurs?
+- What is the expected result?
+- What is the actual result?
+- How can we isolate and reproduce the error?
+- What is our hypothesis for fixing it?
+- How can we conduct an experiment to remedy the error?
+
+***
+
+<!-- background: #3e7997 -->
+<!-- color: #fff -->
+<!-- font: frutiger -->
+
+# Afternoon Project: Grade Calculator
 
 It will take a list of number grades (`82`, `67`, etc.) and return a letter grade (`"B"`, `"D"`, etc.).
 
@@ -224,16 +344,3 @@ makeLetter(72.6)                // => should return 'C'
 calcGrade([0, 1])               // => should return 0.5
 makeLetter(0.5)                 // => should return 'F'
 ```
-
-***
-
-<!-- background: #3e7997 -->
-<!-- color: #fff -->
-<!-- font: frutiger -->
-
-# Post-Session Questions
-
-- What kinds of projects would you like to build towards?
-- Do you have existing web sites that you would like to work with?
-- What about programming is most confusing still?
-- Which concepts do you want to go over in greater depth?
