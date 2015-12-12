@@ -128,6 +128,10 @@ Session 7: [Lesson Plan](session-7/lesson-plan.md) | Slides
 
 ## Resources
 
+Code Visualizer:
+
+- http://pythontutor.com/javascript.html
+
 Tutorials:
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
