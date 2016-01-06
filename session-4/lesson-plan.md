@@ -51,7 +51,7 @@ Lesson Plan for JavaScript Professional Development
   - Compare group result code with example solution code
 
 Total time: ~2.5 hours  
-Presentation: slides | [source file](slides.md)
+Presentation: [slides](https://swipe.to/8179cs) | [source file](slides.md)
 
 ## Afternoon Project
 
