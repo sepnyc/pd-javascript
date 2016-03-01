@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Says</title>
+
+    <!-- Load our stylesheet to add styles to elements -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Load JavaScript to make functions available -->
+    <script type="text/javascript" src="./game.js"></script>
+  </head>
+  <body>
+    <h1>Simon Says</h1>
+
+    <p id="message">
+      Press "Start" to begin the game.
+    </p>
+
+    <button type="button" onclick="game.play()">Start</button>
+
+    <div class="board">
+      <span id="green" onclick="greenClicked()">&nbsp;</span><span id="red" onclick="redClicked()">&nbsp;</span>
+      <span id="yellow" onclick="yellowClicked()">&nbsp;</span><span id="blue" onclick="blueClicked()">&nbsp;</span>
+    </div>
+  </body>
+
+</html>
