@@ -6,11 +6,9 @@ Lesson Plan for JavaScript Professional Development
 
 ##### Concepts
 
-- browser environment
-- document object model (DOM)
 - tree structure
+- document object model (DOM)
 - user input
-- rendering
 
 ##### Outline
 

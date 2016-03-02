@@ -1,0 +1,40 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+button {
+  font-size: 2em;
+}
+
+.board {
+  margin-top: 0.5em;
+  width: 100%;
+  min-width: 200px;
+  height: 100%;
+  min-height: 200px;
+}
+
+.board span {
+  width: 50%;
+  min-width: 100px;
+  height: 50%;
+  min-height: 100px;
+  display: inline-block;
+}
+
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#blue {
+  background-color: blue;
+}
