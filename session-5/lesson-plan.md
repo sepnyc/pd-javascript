@@ -4,13 +4,19 @@ Lesson Plan for JavaScript Professional Development
 
 ##### Learning Outcomes
 
+- Write JavaScript that changes a web page.
+- Render content to a user interface (UI) in HTML with JavaScript.
+- Delay code execution in the browser.
+- Explain the purposes of and differences between HTML, CSS, and JavaScript.
+- Transfer code from files into a web-based editor (like JS Bin).
+
 In this lesson, we'll begin exploring how to integrate JavaScript into a web page. We'll see how JavaScript can be used in a browser to manipulate the elements on the page, respond to user input, render text, and set "timeouts" for delayed execution.
 
 ##### Concepts
 
 - browser environment
 - rendering
-- timeouts
+- time-delays
 
 ##### Outline
 
