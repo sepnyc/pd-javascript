@@ -12,7 +12,7 @@
 
     var magicStick = {
       students: ['Mo', 'Kristen', 'Rachel', 'Christa', 'Tim', 'Chris', 'Matt', 'Jon', 'Jeremy', 'Z', 'Patti', 'Ariadna', 'Ben', 'Nicole', 'Tanner', 'SK'],
-      adjectives: ['pretty', 'smart', 'funny', 'smelly', 'short', 'ugly'],
+      adjectives: ['pretty', 'smart', 'funny', 'interesting', 'strange'],
 
       select: function() {
         var listLength = this.students.length;
@@ -23,9 +23,9 @@
 
       insult: function() {
         var student = this.select();
-        var insult = this.adjectives[randomInteger(6)];
+        var adjective = this.adjectives[randomInteger(5)];
 
-        return "next volunteer: " + insult + " " + student;
+        return "next volunteer: " + adjective + " " + student;
       }
     };
 
