@@ -42,7 +42,7 @@ Total time: ~2.5 hours
   1. Complete each task in the comments (in order)
 
 ### Create a multi-file, interactive game (70 min)
-- Start building the UI for a Simon Says game (see the [/game][./game/] directory)
+- Start building the UI for a Simon Says game (see the [/game](./game/) directory)
 - First task is to replicate the files in JS Bin
   - HTML file goes in the HTML tab, and so forth
 - The goal for today is to solve the _pattern display_ component of the game
