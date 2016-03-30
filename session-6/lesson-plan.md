@@ -4,10 +4,10 @@ Lesson Plan for JavaScript Professional Development
 
 ##### Learning Outcomes
 
-- Write JavaScript that changes a web page.
+- Write JavaScript in files that changes a web page.
+- Write JavaScript in a browser console that changes a web page.
 - Render content to a user interface (UI) in HTML with JavaScript.
 - Delay code execution in the browser.
-- Explain the purposes of and differences between HTML, CSS, and JavaScript.
 
 In this lesson, we'll continue exploring how to integrate JavaScript into a web page. Using the memory game we worked on in previous lessons as a base, we'll see how JavaScript can be used in a browser to manipulate the elements on the page, respond to user input, render text, and set "timeouts" for delayed execution.
 
@@ -28,20 +28,32 @@ In this lesson, we'll continue exploring how to integrate JavaScript into a web 
 
 Total time: ~2.5 hours
 
-### Introduction & Review (30 min)
-- Warm up: review last session (20 min)
-  1. Work in pairs or groups of three
-  1. Open up project code ([session-4/makeGame-rachel.js](../session-4/makeGame-rachel.js))
-  1. Go through the file and run the code in your "brain simulators"
-  1. Take note of places in the code where you have questions
-  1. After 10 min, come back together and discuss questions
-- Introduction: JavaScript in the Browser (10 min)
-  - Discuss questions: what is HTML? what is CSS? how does a browser "read" them?
-    - Analogy: browsers vs. word processor programs (content = HTML, styles = CSS)
-  - Discuss questions: what is the role of JavaScript in relation to HTML and CSS? how does a browser "read" a JavaScript file?
-    - Analogy: browsers vs. spreadsheet programs (formulas = JS)
+### Introduction (10 min)
+- Plan for the day
+  - Start by warming up with a bunch of JS + browser exercises
+    - This will get us re-acquainted with the browser and JavaScript
+    - And then we can talk about the DOM
+  - Then, we'll continue building the Simon Says memory game from last time
 
-### Create a multi-file, interactive game (110 min)
+
+### JS on the Web Exercises (40 min)
+1. Open the `./game/page.html` web page in Google Chrome
+1. Open the web developer console
+1. Using only JavaScript in the console, accomplish the following tasks:
+  1. Change the background color of the page to `purple`
+  1. Find the first `<h1>` element and assign to a variable
+  1. Change the text color of the first `<h1>` element to `#eee`
+  1. Change the font family of the element with id `message` to `monospace`
+  1. Remove the element with id `message` from the page
+  1. Move the `<span#success>` element "into" the `<p#message>` element (i.e. make it a child of the `<p#message>` element)
+  1. Move the `<span#failure>` element into the `<p#message>` element
+  1. Hide the `<span#success>` element
+  1. Hide the `<span#failure>` element
+  1. Hide the `<span#begin>` element
+  1. Show the `<span#begin>` element
+  1. Add an `onclick` event handler to the `<button>` that hides the `<span#default>` and shows the `<span#begin>` element
+
+### Create a multi-file, interactive game (90 min)
 - Start building the UI for a Simon Says game (see the [/game](./game/) directory)
 - First task is to replicate the files in JS Bin
   - HTML file goes in the HTML tab, and so forth
