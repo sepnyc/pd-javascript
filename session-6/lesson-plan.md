@@ -20,8 +20,9 @@ In this lesson, we'll continue exploring how to integrate JavaScript into a web 
 
 ##### Outline
 
-- Introduction & Review (30 min)
-- Create a multi-file, interactive game (110 min)
+- Introduction (10 min)
+- JS on the Web Exercises (40 min)
+- Create a multi-file, interactive game (90 min)
 - Wrap-up (10 min)
 
 ## Morning Lesson
@@ -34,7 +35,6 @@ Total time: ~2.5 hours
     - This will get us re-acquainted with the browser and JavaScript
     - And then we can talk about the DOM
   - Then, we'll continue building the Simon Says memory game from last time
-
 
 ### JS on the Web Exercises (40 min)
 1. Open the `./game/page.html` web page in Google Chrome
