@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Magic Stick</title>
+</head>
+<body>
+  <!-- 2) Render the insult in a <p> tag
+          (hint: give the <p> tag an id attribute, and select it from
+          JavaScript using the document.querySelector() function)
+  -->
+  <p id="insult">sample text</p>
+
+  <!-- 3) Make a clickable button to generate a new insult
+          (hint: create a button tag and set its 'onclick' attribute to
+          execute a function that generates and renders a new insult)
+  -->
+
+  <button onclick="insertInsult()">make insult</button>
+
+  <script type="text/javascript">
+    function randomInteger(limit) {
+      return Math.floor(Math.random() * limit);
+    }
+
+    var magicStick = {
+      students: ['Jon', 'Christa', 'Tanner', 'Brian', 'Rachel', 'Matt', 'Nicole'],
+      adjectives: ['pretty', 'smart', 'funny', 'interesting', 'strange'],
+
+      select: function() {
+        var listLength = this.students.length;
+        var indexValue = randomInteger(listLength);
+        return this.students[ indexValue ];
+      },
+
+      insult: function() {
+        var student = this.select();
+        var adjective = this.adjectives[randomInteger(5)];
+        return "next volunteer: " + adjective + " " + student;
+      }
+    };
+    // 1) Make the insult show in the browser window, not the console
+    //    (hint: use the document.write() function)
+    // document.write(magicStick.insult());
+
+    var insertInsult = function() {
+      var insultText = magicStick.insult();
+      var para = document.querySelector("#insult");
+
+      para.innerText = insultText;
+    }
+  </script>
+</body>
+</html>
