@@ -21,8 +21,7 @@ In this lesson, we'll begin exploring how to integrate JavaScript into a web pag
 ##### Outline
 
 - Introduction & Review (30 min)
-- Use JavaScript in an HTML page (40 min)
-- Create a multi-file, interactive game (70 min)
+- Use JavaScript in an HTML page (110 min)
 - Wrap-up (10 min)
 
 ## Morning Lesson
@@ -42,18 +41,10 @@ Total time: ~2.5 hours
   - Discuss questions: what is the role of JavaScript in relation to HTML and CSS? how does a browser "read" a JavaScript file?
     - Analogy: browsers vs. spreadsheet programs (formulas = JS)
 
-### Use JavaScript in an HTML page (40 min)
+### Use JavaScript in an HTML page (110 min)
 - Complete the `magicStick` exercise
   1. Load the page [session-5/magicStick/page.html](./magicStick/page.html) into a new JS Bin
   1. Complete each task in the comments (in order)
-
-### Create a multi-file, interactive game (70 min)
-- Start building the UI for a Simon Says game (see the [/game](./game/) directory)
-- First task is to replicate the files in JS Bin
-  - HTML file goes in the HTML tab, and so forth
-- The goal for today is to solve the _pattern display_ component of the game
-  - User input will come later, it's too complex for now
-- As a group, code each of the `TODO` sections of `game.js`
 
 ### Wrap-up (10 min)
 - What was important?
