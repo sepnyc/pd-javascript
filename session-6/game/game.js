@@ -23,7 +23,7 @@ var GAME = {
     // TODO: Modify the play() function to show a pattern of colors
 
     while (this.isCorrect()) {
-      this.addOneLetter();
+      this.addOneColor();
       alert(this.pattern);
       this.echo = prompt("Do you remember the pattern?");
 
