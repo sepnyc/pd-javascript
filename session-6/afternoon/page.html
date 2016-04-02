@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Memory Match</title>
+
+    <!-- Load our stylesheet to add styles to elements -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Load JavaScript to make functions available -->
+    <script type="text/javascript" src="./game.js"></script>
+  </head>
+  <body>
+    <h1>Memory Match</h1>
+
+    <p id="message"></p>
+
+    <div class="cards">
+
+      <div class="card back" onclick="show('card-1'); logClick('card-1');">
+        <div id="card-1" class="blue card front"></div>
+      </div>
+
+      <div class="card back" onclick="show('card-2'); logClick('card-2');">
+        <div id="card-2" class="red card front"></div>
+      </div>
+
+      <div class="card back" onclick="show('card-3'); logClick('card-3');">
+        <div id="card-3" class="red card front"></div>
+      </div>
+
+      <div class="card back" onclick="show('card-4'); logClick('card-4');">
+        <div id="card-4" class="blue card front"></div>
+      </div>
+
+    </div>
+</html>
