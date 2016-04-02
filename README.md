@@ -116,7 +116,7 @@ Session 4: [Lesson Plan](session-4/lesson-plan.md) | [Slides][s4-slides]
 
 ### Session 5-6: JavaScript and the Web
 
-Session 5: [Lesson Plan](session-5/lesson-plan.md)
+Session 5: [Lesson Plan](session-5/lesson-plan.md)<br>
 Session 6: [Lesson Plan](session-6/lesson-plan.md)
 
 ##### Concepts
