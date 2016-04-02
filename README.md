@@ -23,18 +23,25 @@ $ $EDITOR pd-javascript
 │   ├── lesson-plan.md
 │   └── slides.md
 ├── session-3
+│   ├── example_code.js
 │   ├── lesson-plan.md
 │   ├── project
 │   └── slides.md
 ├── session-4
+│   ├── game-example-solution.js
+│   ├── game-starter-code.js
 │   ├── lesson-plan.md
+│   ├── makeGame-rachel.js
+│   ├── makeGame-recursive.js
+│   ├── object_playtime.js
 │   └── slides.md
 ├── session-5
 │   ├── lesson-plan.md
-│   └── slides.md
+│   └── magicStick
 ├── session-6
-│   ├── lesson-plan.md
-│   └── slides.md
+│   ├── game
+│   ├── game-example-solution
+│   └── lesson-plan.md
 └── session-7
     ├── lesson-plan.md
     └── slides.md
@@ -75,7 +82,7 @@ Session 2: [Lesson Plan](session-2/lesson-plan.md) | [Slides][s2-slides]
 
 ### Session 3: Practical Programming in JavaScript
 
-Session 3: [Lesson Plan](session-3/lesson-plan.md) | Slides
+Session 3: [Lesson Plan](session-3/lesson-plan.md) | [Slides][s3-slides]
 
 ##### Concepts
 
@@ -92,7 +99,7 @@ Session 3: [Lesson Plan](session-3/lesson-plan.md) | Slides
 
 ### Session 4: Working with Objects
 
-Session 4: [Lesson Plan](session-4/lesson-plan.md) | Slides
+Session 4: [Lesson Plan](session-4/lesson-plan.md) | [Slides][s4-slides]
 
 ##### Concepts
 
@@ -109,8 +116,8 @@ Session 4: [Lesson Plan](session-4/lesson-plan.md) | Slides
 
 ### Session 5-6: JavaScript and the Web
 
-Session 5: [Lesson Plan](session-5/lesson-plan.md) | Slides<br>
-Session 6: [Lesson Plan](session-6/lesson-plan.md) | Slides
+Session 5: [Lesson Plan](session-5/lesson-plan.md)
+Session 6: [Lesson Plan](session-6/lesson-plan.md)
 
 ##### Concepts
 
@@ -122,9 +129,12 @@ Session 6: [Lesson Plan](session-6/lesson-plan.md) | Slides
 
 ##### Projects
 
+- Magic Stick
+- Simon Says Memory Game
+
 ### Session 7: TBD
 
-Session 7: [Lesson Plan](session-7/lesson-plan.md) | Slides
+Session 7: [Lesson Plan](session-7/lesson-plan.md)
 
 ## Resources
 
@@ -157,3 +167,5 @@ Software Engineering Pilot | NYC Department of Education | http://sepnyc.org/
 
 [s1-slides]:https://swipe.to/2003cq
 [s2-slides]:https://swipe.to/3534fx
+[s3-slides]:https://swipe.to/6206gd
+[s4-slides]:https://swipe.to/8179cs
