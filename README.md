@@ -132,9 +132,9 @@ Session 6: [Lesson Plan](session-6/lesson-plan.md)
 - Magic Stick
 - Simon Says Memory Game
 
-### Session 7: TBD
+### Session 7: Designing Projects for the Classroom
 
-Session 7: [Lesson Plan](session-7/lesson-plan.md)
+Session 7: [Lesson Plan](session-7/lesson-plan.md) | [Project](session-7/mysounds/README.md)
 
 ## Resources
 
