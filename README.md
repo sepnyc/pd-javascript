@@ -15,19 +15,19 @@ $ $EDITOR pd-javascript
 
 ```shell-session
 ├── README.md
-├── session-1
+├── session-1/
 │   ├── lesson-plan.md
 │   └── slides.md
-├── session-2
+├── session-2/
 │   ├── example.js
 │   ├── lesson-plan.md
 │   └── slides.md
-├── session-3
+├── session-3/
 │   ├── example_code.js
 │   ├── lesson-plan.md
-│   ├── project
+│   ├── project/
 │   └── slides.md
-├── session-4
+├── session-4/
 │   ├── game-example-solution.js
 │   ├── game-starter-code.js
 │   ├── lesson-plan.md
@@ -35,16 +35,17 @@ $ $EDITOR pd-javascript
 │   ├── makeGame-recursive.js
 │   ├── object_playtime.js
 │   └── slides.md
-├── session-5
+├── session-5/
 │   ├── lesson-plan.md
-│   └── magicStick
-├── session-6
-│   ├── game
-│   ├── game-example-solution
+│   └── magicStick/
+├── session-6/
+│   ├── game/
+│   ├── game-example-solution/
 │   └── lesson-plan.md
-└── session-7
+└── session-7/
     ├── lesson-plan.md
-    └── slides.md
+    ├── mysounds/
+    └── mysounds-solution/
 ```
 
 ## Sessions
